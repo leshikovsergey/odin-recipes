@@ -57,6 +57,11 @@ a {
   text-shadow: 3px 3px 5px #ffe100;
 }
 
+.menu-link:hover {
+  border-bottom: 3px solid rgb(197, 90, 15);
+  color: rgba(197, 90, 15, 0.5);
+}
+
 .main {
   text-align: center;
 }
@@ -67,8 +72,19 @@ a {
   text-shadow: 3px 3px 5px #ffe100;
 }
 
+.main-title-recipe {
+  font-size: 35px;
+  color: rgb(197, 90, 15);
+  text-shadow: 3px 3px 5px #ffe100;
+}
+
 .main-text {
   font-size: 25px;
+  color: rgb(88, 37, 1);
+}
+
+.main-text-recipe {
+  font-size: 15px;
   color: rgb(88, 37, 1);
 }
 
@@ -100,4 +116,32 @@ figure {
   padding: 15px;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 3px solid rgb(197, 90, 15);
+  border-radius: 15px;
+  gap: 35px;
+}
+
+.sharlotte-img {  
+  width: 50%;  
+  margin-block: 20px;
+  border-radius: 15px;
+}
+
+.inrg-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  font-size: 20px;
+  color: rgb(167, 56, 12);
+  font-weight: bold;
+  text-decoration: underline;
 }
