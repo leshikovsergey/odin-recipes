@@ -41,7 +41,7 @@ a {
   justify-content: space-between;
   padding: 20px;
   align-items: center;
-  margin-block-end: 100px;
+  margin-block-end: 80px;
 }
 
 .menu-list {
@@ -76,6 +76,7 @@ a {
   font-size: 35px;
   color: rgb(197, 90, 15);
   text-shadow: 3px 3px 5px #ffe100;
+  text-transform: uppercase;
 }
 
 .main-text {
@@ -84,7 +85,7 @@ a {
 }
 
 .main-text-recipe {
-  font-size: 15px;
+  font-size: 20px;
   color: rgb(88, 37, 1);
 }
 
@@ -135,7 +136,7 @@ figure {
   border-radius: 15px;
 }
 
-.inrg-inner {
+.inrg-inner{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -144,4 +145,14 @@ figure {
   color: rgb(167, 56, 12);
   font-weight: bold;
   text-decoration: underline;
+}
+
+.main {
+  margin-block-end: 60px;
+}
+
+.footer {
+  color: white;
+  padding-left: 50px;
+  
 }
