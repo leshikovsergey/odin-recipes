@@ -21,6 +21,7 @@ body {
 
 ul {
   list-style: none;
+  padding: 0;
 }
 
 a {
@@ -127,16 +128,31 @@ figure {
   background-color: rgba(255, 255, 255, 0.5);
   border: 3px solid rgb(197, 90, 15);
   border-radius: 15px;
-  gap: 35px;
+  gap: 100px;
 }
 
-.sharlotte-img {  
-  width: 50%;  
+.sharlotte-img, .liver-img {
+  width: 50%;
   margin-block: 20px;
+  border: 3px solid rgb(197, 90, 15);
   border-radius: 15px;
 }
 
-.inrg-inner{
+.ingr-title, .calor-title {
+  font-size: 20px;
+  color: rgb(197, 90, 15);
+  text-shadow: 3px 3px 5px #ffe100;
+  text-transform: uppercase;
+}
+
+.ingr-number {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(167, 56, 12);
+  padding-inline-start: 5px;
+} 
+
+.ingr-inner, .calor-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -144,7 +160,11 @@ figure {
   font-size: 20px;
   color: rgb(167, 56, 12);
   font-weight: bold;
-  text-decoration: underline;
+  margin-block-end: 5px;
+} 
+
+.ingr-list {
+  padding: 0;
 }
 
 .main {
@@ -154,5 +174,4 @@ figure {
 .footer {
   color: white;
   padding-left: 50px;
-  
 }
